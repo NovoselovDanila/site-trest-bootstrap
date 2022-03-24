@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>...</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header class="header">
+    <nav class="navbar navbar-expand-lg fixed-top py-3">
+        <div class="container"><a href="index.html" class="navbar-brand text-uppercase font-weight-bold">Строительный трест №14</a>
+            <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
+            
+            <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"><a href="index.html" class="nav-link text-uppercase font-weight-bold">Главная<span class="sr-only">(current)</span></a></li>
+                    <li class="nav-item"><a href="news.html" class="nav-link text-uppercase font-weight-bold">Новости</a></li>
+                    <li class="nav-item"><a href="about-us.html" class="nav-link text-uppercase font-weight-bold">О нас</a></li>
+                    <li class="nav-item"><a href="contacts.html" class="nav-link text-uppercase font-weight-bold">Контакты</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">Услуги</a></li>
+                    <li class="nav-item"><img src="flag1.png" alt="en" data-google-lang="en" class="language__img" id="langbtn" onclick="en_lang()"></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<div class="container">
+    <div class="pt-5 text-white">
+        <header class="py-5 mt-5">
+            <h1 class="display-4">Транспорт</h1>
+            <br>
+            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+          <label class="btn btn-outline-light">
+            <input type="radio" name="options" id="option1" autocomplete="off" onchange="check()"> Продукция
+          </label>
+          <label class="btn btn-outline-light">
+            <input type="radio" name="options" id="option2" autocomplete="off" onchange="check()"> Аренда
+          </label>
+          <label class="btn btn-outline-light active">
+            <input type="radio" name="options" id="option3" autocomplete="off" checked> Транспорт
+          </label>
+        </div>
+        </header>
+        </div>
+        <div class="row">
+              <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Асфальтоукладчик</h5>
+                    <p class="card-text">Предоставляем асфальтоукладчик</p>
+                    <a href="contacts.html" class="btn btn-outline-secondary">Контакты</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Бетононасос</h5>
+                    <p class="card-text">Предоставляем бетононасос</p>
+                    <a href="contacts.html" class="btn btn-outline-secondary">Контакты</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="row">
+            <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Бульдозер</h5>
+                    <p class="card-text">Предоставляем бульдозер</p>
+                    <a href="contacts.html" class="btn btn-outline-secondary">Контакты</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Каток дорожный самоходный</h5>
+                    <p class="card-text">Предоставляем каток дорожный самоходный</p>
+                    <a href="contacts.html" class="btn btn-outline-secondary">Контакты</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="row">
+            <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Погрузчик</h5>
+                    <p class="card-text">Предоставляем погрузчик</p>
+                    <a href="contacts.html" class="btn btn-outline-secondary">Контакты</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Трактор</h5>
+                    <p class="card-text">Предоставляем трактор</p>
+                    <a href="contacts.html" class="btn btn-outline-secondary">Контакты</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="row">
+            <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Экскаватор</h5>
+                    <p class="card-text">Предоставляем экскаватор</p>
+                    <a href="contacts.html" class="btn btn-outline-secondary">Контакты</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Экскаватор-погрузчик</h5>
+                    <p class="card-text">Предоставляем экскаватор-погрузчик</p>
+                    <a href="contacts.html" class="btn btn-outline-secondary">Контакты</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="row">
+            <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Автомобильный кран</h5>
+                    <p class="card-text">Предоставляем автомобильный кран</p>
+                    <a href="contacts.html" class="btn btn-outline-secondary">Контакты</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Кран башенный</h5>
+                    <p class="card-text">Предоставляем кран башенный</p>
+                    <a href="contacts.html" class="btn btn-outline-secondary">Контакты</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br>
+    </div>
+</div>
+<review-lab data-widgetid="620d70fcf709ae748e812ac2"></review-lab>
+<script src="https://app.reviewlab.ru/widget/index-es2015.js"></script>
+<script src="https://app.reviewlab.ru/widget/index-es5.js" defer></script>
+    <div class="footer-basic">
+        <footer>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Главная</a></li>
+                <li class="list-inline-item"><a href="news.html">Новости</a></li>
+                <li class="list-inline-item"><a href="about-us.html">О нас</a></li>
+                <li class="list-inline-item"><a href="contacts.html">Контакты</a></li>
+                <li class="list-inline-item"><a href="Products.html">Услуги</a></li>
+                <li class="list-inline-item"><a href="sitemap.html" class="menutext5">Карта сайта</a></li>
+            </ul>
+            <p class="copyright">Строительный трест №14 © 2022</p>
+        </footer>
+    </div>
+<script type="text/javascript">
+	$(function () {
+    $(window).on('scroll', function () {
+        if ( $(window).scrollTop() > 10 ) {
+            $('.navbar').addClass('active');
+        } else {
+            $('.navbar').removeClass('active');
+        }
+    });
+});
+  function check()
+  {if (option1.checked == true)
+  {window.open("Products.html",'_self',false); this.stopPropagation();}
+  else if (option2.checked == true)
+  {window.open("arenda.html",'_self',false); this.stopPropagation();}
+  else (option3.checked == true)
+  {window.open("cars.html",'_self',false); this.stopPropagation();}
+  
+  }
+</script>
+</body>
+</html>

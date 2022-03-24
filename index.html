@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>...</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-ex-gradient-animation">
+	<header class="header">
+    <nav class="navbar navbar-expand-lg fixed-top py-3">
+        <div class="container"><a href="#" class="navbar-brand text-uppercase font-weight-bold">Строительный трест №14</a>
+            <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
+            
+            <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"><a href="#" class="nav-link text-uppercase font-weight-bold menutext1">Главная<span class="sr-only">(current)</span></a></li>
+                    <li class="nav-item"><a href="news.html" class="nav-link text-uppercase font-weight-bold menutext2">Новости</a></li>
+                    <li class="nav-item"><a href="about-us.html" class="nav-link text-uppercase font-weight-bold menutext3">О нас</a></li>
+                    <li class="nav-item"><a href="contacts.html" class="nav-link text-uppercase font-weight-bold menutext4">Контакты</a></li>
+                    <li class="nav-item"><a href="Products.html" class="nav-link text-uppercase font-weight-bold menutext5">Услуги</a></li>
+                    <li class="nav-item"><img src="flag1.png" alt="en" data-google-lang="en" class="language__img" id="langbtn" onclick="en_lang()"></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<div class="container">
+    <div class="pt-5 text-white">
+        <header class="py-5 mt-5">
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="Project2.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Многоэтажный жилой дом</h5>
+                    <p>на улице Федюненского</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="Project5.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Многоквартирный жилой дом</h5>
+                    <p>г.Ветка</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="Project6.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Гостиница Турист</h5>
+                    <p>г.Гомель</p>
+                  </div>
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+        <br>
+            <h1 class="display-4 text1">Личный приём граждан временно приостановлен</h1>
+            <p class="lead mb-0 text2">В связи с неблагоприятной эпидемиологической обстановкой личный прием граждан руководством общества временно приостановлен.</p>
+            <p class="lead mb-0 text3">Для обращений просим использовать следующие виды связи:</p>
+            <p class="lead mb-0 text4">1. электронная почта: <a href="mailto:mail@stroytrest14.by">mail@stroytrest14.by</a></p>
+            <p class="lead mb-0 text5">2. телефонная связь помощник руководителя  <a href="tel:+375231474899">+375 29 147 48 99</a>, <a href="tel:+375232345930">+375 232 34 59 30</a></p>
+            <p class="lead mb-0 text6">3. заместитель гененрального директора по ИРиСР <a href="tel:+375296994750">+375 29 699 47 50</a></p>
+        </header>
+        <div class="py-5">
+        	<h1 class="display-4 text7">О нашем тресте</h1>
+            <p class="lead text8">Строительный трест №14 был образован 9 декабря 1967 года приказом Министерства промышленного строительства СССР для строительства жилых зданий и зданий культурно-бытового назначения в г. Гомеле и области в системе Министерства промышленности и строительства БССР на базе строительного треста №10 (ныне ОАО "Гомельпромстрой") и входил в состав строительно-монтажного комбината "Белхимстрой". В 1989 году на базе ликвидируемого строительного треста №14 был создан производственно-строительный кооператив "Трест №14" при Министерстве строительства БССР.</p>
+            <p class="lead text9">В 2005 году производственно-строительный кооператив "Трест №14" был преобразован в Республиканское унитарное предприятие "Строительный трест №14". Учредителем РУП "Строительный трест №14" и органом государственного управления являлось Министерство архитектуры и строительства Республики Беларусь. В 2010 году Республиканское унитарное предприятие "Строительный трест №14" реорганизовано в Открытое акционерное общество "Строительный трест №14". Общество осуществляет свою деятельность в соответствии с законодательством и принятым Уставом. В состав общества входит аппарат управления и пять филиалов, в которых работает свыше 1000 человек. </p>
+        </div>
+        <div class="py-5">
+          <h1 class="display-4 text10">Видеоинформация</h1>
+            <iframe width="1100px" height="600px" src="https://www.youtube.com/embed/xxrTcR15RuU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="py-5">
+        	<h1 class="display-4 text11">Наши цели и задачи</h1>
+            <p class="lead text12">За время деятельности треста построено множество объектов жилья и соцкультбыта (детские дошкольные учреждения, школы, больницы и пр.), производились реконструкции и ремонты зданий и сооружений. Благодаря самоотверженному труду не одного поколения работников треста г. Гомель приобрел свой неповторимый архитектурный облик, который дорог всем гомельчанам. Много объектов построено в селах Гомельского района и области. Трест планирует и дальше наращивать объемы жилищного строительства. Согласно данным, основанным на выводах общеевропейской статистики, стоимость 1 м2 общей площади жилого помещения с типовыми потребительскими качествами не должна превышать двухмесячный доход застройщика, а стоимость жилого помещения в целом не должна превышать 4-5 годовых доходов среднеобеспеченной семьи. Этим критериям максимально соответствуют дома со свободной планировкой квартир. Дома - быстровозводимые (скорость строительства дома до одного года), квартиры в них дешевы (при высоких потребительских качествах квартиры). Строительство таких жилых домов уже осуществляется трестом. Основным принципом свободной планировки является отсутствие каких бы то ни было конструкционных ограничений на внутреннюю планировку, что позволит индивидуально учесть пожелания застройщиков по внутреннему устройству помещений, их составу и площади. Для претворения в жизнь предлагаемого проекта трест освоил монолитное домостроение, строительство зданий и сооружений каркасного типа со скрытым ригелем и монолитными перекрытиями, а также строительство домов с конструктивной схемой "широкий шаг". Мы планируем расширить объемы строительства подобного жилья, в том числе на экспорт . Решить поставленные задачи без повышения качества выполняемых работ до европейского уровня невозможно. Мы это понимаем и прилагаем все усилия для решения этой задачи. Общество организует свою работу в соответствии с требованиями СТБ ИСО 9001. Испытательный комплекс ОАО "Строительный трест №14" аттестован на соответствие требованиям ТПК 45-1.01-47-2006, что позволяет осуществлять контроль всего комплекса работ, производимых обществом. Сертифицированы все виды работ выполняемые трестом и подлежащие оценке соответствия. Сертифицирована продукция, выпускаемая филиалом УПТК.</p>
+        </div>
+        <div class="py-5">
+            <h1 class="display-4 text13">Государственные программы и структуры</h1>
+            <p class="lead">
+            <p class="lead mb-0 text14"><a href="http://www.gomel-region.by/ru">Гомельский облисполком</a></p>
+            <p class="lead mb-0 text15"><a href="https://president.gov.by/ru">Президент Республики Беларусь</a></p> 
+            <p class="lead mb-0 text16"><a href="http://gmlocge.by/recommendations/profilaktika-narkomanii">Нет наркотикам</a></p>
+            <p class="lead mb-0 text17"><a href="http://cenadm.gov.by/ru">Администрация центрального района</a></p>
+            <p class="lead mb-0 text18"><a href="https://gomel.gov.by/ru/">Гомельский горисполком</a></p>
+            </p>
+        </div>
+        <div class="py-5">
+          <h1 class="display-4 text19">Наша компания предлагает</h1>
+          <ul class="list-group text-muted">
+          <li class="list-group-item d-flex justify-content-between align-items-center text20">
+            Выполняем строительно-монтажные работы объектов
+            <span class="badge badge-pill badge-info text21">Строительство</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center text22">
+            Предлагаем в аренду помещения
+            <span class="badge badge-pill badge-info text23">Аренда</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center text24">
+            Продукция собственного производства
+            <span class="badge badge-pill badge-info text25">Продажа</span>
+          </li>
+        </ul>
+        </div>
+        <div class="py-5">
+            <h1 class="display-4 text26">Наши проекты</h1>
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="Project1.jpg" alt="Первый слайд" height="700px">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="Project2.jpg" alt="Второй слайд"  height="700px">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="Project3.jpg" alt="Третий слайд"  height="700px">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        </div>
+        <div class="py-5">
+          <h1 class="display-4 text27">Форма обратной связи</h1>
+          <br>
+            <form action="https://formspree.io/f/xayvoory" method="POST">
+            <div class="row">
+            <div class="form-group col-sm-6">
+                <label for="name" class="h4 text28">Имя</label>
+                <input type="text" class="form-control" id="name" placeholder="Введите имя" required>
+            </div>
+            <div class="form-group col-sm-6">
+                <label for="email" class="h4 text29">Почта</label>
+                <input type="email" name="email" class="form-control" id="email" placeholder="Введите почту" required>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="message" class="h4 text30">Сообщение</label>
+            <textarea id="message" name="message" class="form-control" rows="5" placeholder="Введите сообщение" required></textarea>
+        </div>
+        <button type="submit" id="form-submit" class="btn btn-light btn-lg pull-right sendbtn text31">Отправить</button>
+      </form>
+      <br>
+        </div>
+    </div>
+</div>
+<div class="footer-basic">
+        <footer>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#" class="menutext1">Главная</a></li>
+                <li class="list-inline-item"><a href="news.html" class="menutext2">Новости</a></li>
+                <li class="list-inline-item"><a href="about-us.html" class="menutext3">О нас</a></li>
+                <li class="list-inline-item"><a href="contacts.html" class="menutext4">Контакты</a></li>
+                <li class="list-inline-item"><a href="Products.html" class="menutext5">Услуги</a></li>
+                <li class="list-inline-item"><a href="sitemap.html" class="menutext5">Карта сайта</a></li>
+            </ul>
+            <p class="copyright">Строительный трест №14 © 2022</p>
+        </footer>
+    </div>
+<script type="text/javascript">
+	$(function () {
+    $(window).on('scroll', function () {
+        if ( $(window).scrollTop() > 10 ) {
+            $('.navbar').addClass('active');
+        } else {
+            $('.navbar').removeClass('active');
+        }
+    });
+});
+  $(document).ready(function(){
+    $(".sendbtn").click(function(){
+        $("#myModal").modal("show");
+    });
+});
+  function en_lang(){
+    var menutext1 = document.querySelector('.menutext1');
+    var menutext2 = document.querySelector('.menutext2');
+    var menutext3 = document.querySelector('.menutext3');
+    var menutext4 = document.querySelector('.menutext4');
+    var menutext5 = document.querySelector('.menutext5');
+    var text1 = document.querySelector('.text1');
+    var text2 = document.querySelector('.text2');
+    var text3 = document.querySelector('.text3');
+    var text4 = document.querySelector('.text4');
+    var text5 = document.querySelector('.text5');
+    var text6 = document.querySelector('.text6');
+    var text7 = document.querySelector('.text7');
+    var text8 = document.querySelector('.text8');
+    var text9 = document.querySelector('.text9');
+    var text10 = document.querySelector('.text10');
+    var text11 = document.querySelector('.text11');
+    var text12 = document.querySelector('.text12');
+    var text13 = document.querySelector('.text13');
+    var text14 = document.querySelector('.text14');
+    var text15 = document.querySelector('.text15');
+    var text16 = document.querySelector('.text16');
+    var text17 = document.querySelector('.text17');
+    var text18 = document.querySelector('.text18');
+    var text19 = document.querySelector('.text19');
+    var text20 = document.querySelector('.text20');
+    var text21 = document.querySelector('.text21');
+    var text22 = document.querySelector('.text22');
+    var text23 = document.querySelector('.text23');
+    var text24 = document.querySelector('.text24');
+    var text25 = document.querySelector('.text25');
+    var text26 = document.querySelector('.text26');
+    var text27 = document.querySelector('.text27');
+    var text28 = document.querySelector('.text28');
+    var text29 = document.querySelector('.text29');
+    var text30 = document.querySelector('.text30');
+    var text31 = document.querySelector('.text31');
+    menutext1.innerHTML = 'Main';
+    menutext2.innerHTML = 'News';
+    menutext3.innerHTML = 'About us';
+    menutext4.innerHTML = 'Contacts';
+    menutext5.innerHTML = 'Services';
+    text1.innerHTML = 'Personal reception of citizens is temporarily suspended';
+    text2.innerHTML = 'Due to the unfavorable epidemiological situation, the personal reception of citizens by the management of the company has been temporarily suspended.';
+    text3.innerHTML = 'For requests, please use the following types of communication:';
+    text4.innerHTML = '1. email: mail@stroytrest14.by';
+    text5.innerHTML = '2. telephone communication assistant manager +375 29 147 48 99, +375 232 34 59 30';
+    text6.innerHTML = '3. Deputy Director General for IRiSR +375 29 699 47 50';
+    text7.innerHTML = 'About our trust';
+    text8.innerHTML = 'The Construction Trust No. 14 was formed on December 9, 1967 by order of the Ministry of Industrial Construction of the USSR for the construction of residential buildings and cultural buildings in Gomel and the region in the system of the Ministry of Industry and Construction of the BSSR on the basis of the construction trust No. 10 (now JSC Gomelpromstroy) and was part of the construction and assembly plant "Belkhimstroy". In 1989, on the basis of the liquidated construction trust No. 14, the industrial and construction cooperative "Trust No. 14" was established under the Ministry of Construction of the BSSR.';
+    text9.innerHTML = 'In 2005, the industrial and construction cooperative "Trust No. 14" was transformed into the Republican Unitary Enterprise "Construction Trust No. 14". The founder of RUE "Construction Trust No. 14" and the state administration body was the Ministry of Architecture and Construction of the Republic of Belarus. In 2010, the Republican Unitary Enterprise "Construction Trust No. 14" was reorganized into the Open Joint Stock Company "Construction Trust No. 14". The Company carries out its activities in accordance with the legislation and the adopted Charter. The company includes a management apparatus and five branches, which employ over 1,000 people.';
+    text10.innerHTML = 'Video information';
+    text11.innerHTML = 'Our goals and objectives';
+    text12.innerHTML = 'During the activity of the trust, many housing and social facilities were built (kindergartens, schools, hospitals, etc.), reconstruction and repairs of buildings and structures were carried out. Thanks to the selfless work of more than one generation of employees of the trust, Gomel has acquired its own unique architectural appearance, which is dear to all residents of Gomel. Many facilities have been built in the villages of the Gomel region and the region. The Trust plans to further increase the volume of housing construction. According to the data based on the conclusions of pan-European statistics, the cost of 1 m2 of the total area of residential premises with typical consumer qualities should not exceed the two-month income of the developer, and the cost of residential premises as a whole should not exceed 4-5 annual incomes of an average family. Houses with a free layout of apartments correspond to these criteria as much as possible. Houses are prefabricated (the speed of building a house is up to one year), apartments in them are cheap (with high consumer qualities';
+    text13.innerHTML = 'Government programs and structures';
+    text14.innerHTML = 'Gomel Regional Executive Committee';
+    text15.innerHTML = 'President of the Republic of Belarus';
+    text16.innerHTML = 'No drugs';
+    text17.innerHTML = 'Administration of the central district';
+    text18.innerHTML = 'Gomel City Executive Committee';
+    text19.innerHTML = 'Our company offers';
+    text20.innerHTML = 'We carry out construction and installation works of objects';
+    text21.innerHTML = 'Construction';
+    text22.innerHTML = 'We offer premises for rent';
+    text23.innerHTML = 'Rent';
+    text24.innerHTML = 'Own-made products';
+    text25.innerHTML = 'Sale';
+    text26.innerHTML = 'Our projects';
+    text27.innerHTML = 'Feedback form';
+    text28.innerHTML = 'Name';
+    text29.innerHTML = 'Mail';
+    text30.innerHTML = 'Message';
+    text31.innerHTML = 'Send';
+}
+</script>
+</body>
+</html>
